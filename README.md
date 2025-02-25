@@ -22,13 +22,13 @@ Vecinii unei celule se considera urmatorii 8, intr-o matrice bidimensionala:<br>
 Definim starea unui sistem la generația n ca fiind o matrice S_n din M_m×n({0, 1}) (m - numărul de 
 linii, respectiv n - numărul de coloane), unde elementul 0 reprezintă o celulă moartă, respectiv 1 
 reprezintă o celulă în viață (în generația curentă).
-
+<br>
 Definim o k-evoluție (k ≥ 0) a sistemului o iterație S_0 → S_1 → ··· → S_k, unde fiecare S_i+1 se 
 obține din S_i, aplicând cele cinci reguli enunțate mai sus.
-
+<br>
 **Observație.** Pentru celulele aflate pe prima linie, prima coloană, ultima linie, respectiv ultima 
 coloană, se consideră extinderea la 8 vecini, prin considerarea celor care **nu** se află în matrice 
-ca fiind celule moarte.
+ca fiind celule moarte.<br><br>
 
 **Exemplificare.** Fie următoarea configurație inițială S_0:<br>
 ![image](https://github.com/user-attachments/assets/7719ccc7-8d01-41d7-b005-bddd0805b651)<br>
@@ -40,10 +40,10 @@ In cele ce urmeaza, vom lucra doar in interiorul matricei principale, dar consid
 pentru procesarea corecta a vecinilor. Vom parcurge fiecare element, si vom vedea ce regula evolutiva
 putem aplica. De exemplu, pentru elementul de pe pozitia (0,0) in matricea initiala, vom aplica
 regula de continuitate a celulelor moarte, deoarece este o celula moarta si nu are exact trei vecini in
-viata.
-Urmatoarea celula este in viata, si are exact doi vecini in viata, astfel ca se aplica regula continuitatii celulelor in viata.
+viata.<br>
+Urmatoarea celula este in viata, si are exact doi vecini in viata, astfel ca se aplica regula continuitatii celulelor in viata.<br>
 Pentru celula de pe pozitia (0,2) in S0, observam ca are un singur vecin, astfel ca se aplica
-regula de subpopulare - celula va muri in generatia urmatoare.
+regula de subpopulare - celula va muri in generatia urmatoare.<br>
 Urmand acelasi rationament pentru toate celulele, configuratia sistemului intr-o iteratie (in S1)
 va fi:<br>
 ![image](https://github.com/user-attachments/assets/16de8097-0d48-455e-b715-48cc7787b386)

@@ -50,3 +50,31 @@ regula de subpopulare - celula va muri in generatia urmatoare.<br>
 Urmand acelasi rationament pentru toate celulele, configuratia sistemului intr-o iteratie (in S1)
 va fi:<br>
 ![image](https://github.com/user-attachments/assets/16de8097-0d48-455e-b715-48cc7787b386)
+
+# Input & Output
+* Se citesc de la tastatura (STDIN) numarul de linii m, numarul de coloane n, numarul de celule vii
+p, pozitiile celulelor vii din matrice, respectiv un numar intreg k. Atentie! In citirea inputului se
+considera matricea initiala, neextinsa: se citeste configuratia initiala S0, si NU S0! De exemplu,
+pentru matricea din prezentarea proiectului, inputul ar fi urmatorul:<br>
+3       // m - numarul de linii<br>
+4       // n - numarul de coloane<br>
+5       // p - numarul celulelor vii<br>
+0<br>
+1       // prima celula vie este in (0,1)<br>
+0<br>
+2       // a doua celula vie este in (0,2)<br>
+1<br>
+0       // a treia celula vie este in (1,0)<br>
+2<br>
+2       // a patra celula vie este in (2,2)<br>
+2<br>
+3       // a cincea celula vie este in (2,3)<br>
+5       // numarul intreg k<br>
+
+Afisarea la STDOUT a configuratiei sistemului dupa o k-evolutie.<br>
+* In acest caz, rezultatul este:<br>
+0 0 0 0<br>
+0 0 0 0<br>
+0 0 0 0<br>
+
+

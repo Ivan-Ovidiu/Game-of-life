@@ -58,7 +58,7 @@ considera matricea initiala, neextinsa: se citeste configuratia initiala S0, si 
 pentru matricea din prezentarea proiectului, inputul ar fi urmatorul:<br>
 <pre>
 3       // m - numarul de linii<br>
-        // n - numarul de coloane<br>
+4        // n - numarul de coloane<br>
 5       // p - numarul celulelor vii<br>
 0<br>
 1       // prima celula vie este in (0,1)<br>
@@ -71,7 +71,7 @@ pentru matricea din prezentarea proiectului, inputul ar fi urmatorul:<br>
 2<br>
 3       // a cincea celula vie este in (2,3)<br>
 5       // numarul intreg k<br>
-<pre>
+</pre>pre>
 Afisarea la STDOUT a configuratiei sistemului dupa o k-evolutie.<br>
 * In acest caz, rezultatul este:<br>
 0 0 0 0<br>

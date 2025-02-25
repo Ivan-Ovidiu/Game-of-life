@@ -60,15 +60,15 @@ pentru matricea din prezentarea proiectului, inputul ar fi urmatorul:<br>
 3       // m - numarul de linii
 4        // n - numarul de coloane
 5       // p - numarul celulelor vii
-0<br>
+0
 1       // prima celula vie este in (0,1)
-0<br>
+0
 2       // a doua celula vie este in (0,2)
-1<br>
+1
 0       // a treia celula vie este in (1,0)
-2<br>
+2
 2       // a patra celula vie este in (2,2)
-2<br>
+2
 3       // a cincea celula vie este in (2,3)
 5       // numarul intreg k
 </pre>

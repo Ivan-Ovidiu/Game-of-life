@@ -19,19 +19,18 @@ creare, ramane o celula moarta.
 Vecinii unei celule se considera urmatorii 8, intr-o matrice bidimensionala:<br>
 ![image](https://github.com/user-attachments/assets/c7b48c8d-56a3-4a0b-ba1e-467f717db19a)
 
-Definim starea unui sistem la generația n ca fiind o matrice Sn∈Mm×n({0,1})S_n \in \mathcal{M}_{m \times n}(\{0, 1\})
-Sn​∈Mm×n​({0,1}) (m - numărul de linii, respectiv n - numărul de coloane), unde elementul 0 reprezintă o celulă moartă, respectiv 1 reprezintă o celulă în viață (în generația curentă).
+Definim starea unui sistem la generația n ca fiind o matrice S_n din M_m×n({0, 1}) (m - numărul de 
+linii, respectiv n - numărul de coloane), unde elementul 0 reprezintă o celulă moartă, respectiv 1 
+reprezintă o celulă în viață (în generația curentă).
 
-Definim o kk
-k-evoluție (k≥0k \geq 0
-k≥0) a sistemului o iterație S0→S1→⋯→SkS_0 \rightarrow S_1 \rightarrow \cdots \rightarrow S_k
-S0​→S1​→⋯→Sk​, unde fiecare Si+1S_{i+1}
-Si+1​ se obține din SiS_i
-Si​, aplicând cele cinci reguli enunțate mai sus.
+Definim o k-evoluție (k ≥ 0) a sistemului o iterație S_0 → S_1 → ··· → S_k, unde fiecare S_i+1 se 
+obține din S_i, aplicând cele cinci reguli enunțate mai sus.
 
-Observație. Pentru celulele aflate pe prima linie, prima coloană, ultima linie, respectiv ultima coloană, se consideră extinderea la 8 vecini, prin considerarea celor care nu se află în matrice ca fiind celule moarte.
-Exemplificare. Fie următoarea configurație inițială S0S_0
-S0​:<br>
+**Observație.** Pentru celulele aflate pe prima linie, prima coloană, ultima linie, respectiv ultima 
+coloană, se consideră extinderea la 8 vecini, prin considerarea celor care **nu** se află în matrice 
+ca fiind celule moarte.
+
+**Exemplificare.** Fie următoarea configurație inițială S_0:<br>
 ![image](https://github.com/user-attachments/assets/7719ccc7-8d01-41d7-b005-bddd0805b651)<br>
 In primul rand, vom considera extinderea acestei matrice S0 de dimensiuni 3 × 4 intr-o matrice
 extinsa S0 de dimensiuni 5 × 6, astfel:

@@ -76,8 +76,8 @@ pentru matricea din prezentarea proiectului, inputul ar fi urmatorul:<br>
 > Afisarea la STDOUT a configuratiei sistemului dupa o k-evolutie.<br>
 >In acest caz, rezultatul este
 > <pre>
->0 0 0 0<br>
->0 0 0 0<br>
->0 0 0 0<br></pre>
+>0 0 0 0
+>0 0 0 0
+>0 0 0 0</pre>
 
 

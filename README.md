@@ -71,11 +71,13 @@ pentru matricea din prezentarea proiectului, inputul ar fi urmatorul:<br>
 2<br>
 3       // a cincea celula vie este in (2,3)<br>
 5       // numarul intreg k<br>
-</pre>pre>
-Afisarea la STDOUT a configuratiei sistemului dupa o k-evolutie.<br>
-* In acest caz, rezultatul este:<br>
+</pre>
+> [!IMPORTANT]
+> Afisarea la STDOUT a configuratiei sistemului dupa o k-evolutie.<br>
+>In acest caz, rezultatul este
+> <pre>
 0 0 0 0<br>
 0 0 0 0<br>
 0 0 0 0<br>
-
+</pre>
 

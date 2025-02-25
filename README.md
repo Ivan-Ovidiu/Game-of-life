@@ -56,8 +56,8 @@ va fi:<br>
 p, pozitiile celulelor vii din matrice, respectiv un numar intreg k. Atentie! In citirea inputului se
 considera matricea initiala, neextinsa: se citeste configuratia initiala S0, si NU S0! De exemplu,
 pentru matricea din prezentarea proiectului, inputul ar fi urmatorul:<br>
-3       // m - numarul de linii<br>
-4       // n - numarul de coloane<br>
+3   <pre>    // m - numarul de linii<br>
+4   <pre>    // n - numarul de coloane<br>
 5       // p - numarul celulelor vii<br>
 0<br>
 1       // prima celula vie este in (0,1)<br>

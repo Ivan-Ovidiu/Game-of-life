@@ -57,20 +57,20 @@ p, pozitiile celulelor vii din matrice, respectiv un numar intreg k. Atentie! In
 considera matricea initiala, neextinsa: se citeste configuratia initiala S0, si NU S0! De exemplu,
 pentru matricea din prezentarea proiectului, inputul ar fi urmatorul:<br>
 <pre>
-3       // m - numarul de linii<br>
-4        // n - numarul de coloane<br>
-5       // p - numarul celulelor vii<br>
+3       // m - numarul de linii
+4        // n - numarul de coloane
+5       // p - numarul celulelor vii
 0<br>
-1       // prima celula vie este in (0,1)<br>
+1       // prima celula vie este in (0,1)
 0<br>
-2       // a doua celula vie este in (0,2)<br>
+2       // a doua celula vie este in (0,2)
 1<br>
-0       // a treia celula vie este in (1,0)<br>
+0       // a treia celula vie este in (1,0)
 2<br>
-2       // a patra celula vie este in (2,2)<br>
+2       // a patra celula vie este in (2,2)
 2<br>
-3       // a cincea celula vie este in (2,3)<br>
-5       // numarul intreg k<br>
+3       // a cincea celula vie este in (2,3)
+5       // numarul intreg k
 </pre>
 > [!IMPORTANT]
 > Afisarea la STDOUT a configuratiei sistemului dupa o k-evolutie.<br>
